@@ -5,7 +5,7 @@ const config: Config = {
   collectCoverageFrom: ['src/**/*'],
   coverageReporters: ['json', 'lcov'],
   moduleFileExtensions: ['ts', 'js', 'json', 'node'],
-  // modulePathIgnorePatterns: ['.*/build'],
+  modulePathIgnorePatterns: ['.*/build'],
   preset: 'ts-jest',
   resetMocks: true,
   restoreMocks: true,
