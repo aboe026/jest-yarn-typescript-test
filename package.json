@@ -9,8 +9,8 @@
   "scripts": {
     "build": "tsc --build",
     "clean": "rimraf build tsconfig.tsbuildinfo",
-    "lint": "yarn eslint . && yarn prettier --check .",
-    "lint-fix": "yarn eslint --fix . && yarn prettier --write .",
+    "lint": "eslint . && prettier --check .",
+    "lint-fix": "eslint --fix . && prettier --write .",
     "test": "jest test"
   },
   "dependencies": {
